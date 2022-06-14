@@ -12,6 +12,6 @@ videojs.registerPlugin('pluginName123', function(options) {
         '<a href = "' + linkURL + '" target="_blank">' + linkText + "</a>";
     
     // +++ Inject anchor tag into HTML +++
-    document.getElementById("vjs-dock-description-2").innerHTML = hrefString;
+    document.getElementById("linkHere").innerHTML = hrefString;
   });
 });
