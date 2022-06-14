@@ -1,5 +1,5 @@
 
-videojs.registerPlugin('pluginName', function(options) {
+videojs.registerPlugin('pluginName123', function(options) {
   var myPlayer = this;
   
   // +++ Wait for loadstart to read video information +++
