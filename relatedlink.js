@@ -1,5 +1,5 @@
 var myPlayer, timeoutID, removeCTATime;
-videojs.getPlayer('myPlayerID').ready(function() {
+videojs.registerPlugin('pluginName123', function(options) {
   var cuePointAra = [],
     allCuePointData;
   myPlayer = this;
