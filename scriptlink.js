@@ -1,4 +1,4 @@
-videojs.registerPlugin('cuepointCTA', function() {
+videojs.registerPlugin('overlay', function() {
   var myPlayer = this,
     timeoutID,
     removeCTATime,
